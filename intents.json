@@ -1,0 +1,38 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": [ "Hi there, welcome to the cookie shop how can I be of service","hi,would you like to see our cookie menu?","hello, how can i be of service?","u want cookies  :) ?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day","bye"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is the cookie monster", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 18 years old!", "18 years young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?","name?","May I ask you what's your name?","May I ask you what your name is?"],
+         "responses": ["I'm cookie monster here to show you whats on the menu."],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["Id like to buy something", "whats on the menu", "what do you recommend?", "could i get something to eat","can i have cookies","yes"],
+         "responses": ["COOKIES MENU(all 2 pounds) \t\nchocolate cookie\nChocolate Chip Cookies.\nShortbread Cookies.\nMacaron Cookies.\nMacaroon Cookies.\nBiscotti Cookies.\nSugar Cookies.\nOatmeal Raisin Cookies.\nGingerbread Cookies.\n\t please type in the cookie you want below"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 7am-4pm Monday-Friday!"],
+         "context_set": ""
+        },
+        {"tag": "cookies",
+         "patterns": ["chocolate cookie","Chocolate Chip Cookies","Shortbread Cookies","Macaron Cookies","Macaroon Cookies","Biscotti Cookies","Sugar Cookies","Oatmeal Raisin Cookies","Gingerbread Cookies"],
+         "responses": ["cookies will be delivered in 30 mins or less, thx for shopping"],
+         "context_set": ""
+        }
+   ]
+}
